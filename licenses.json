@@ -1,0 +1,14 @@
+[
+  {
+    "hwid": "HWID-USER-1",
+    "license": "ABC123-XYZ789",
+    "start": "2025-08-03",
+    "expire": "2025-09-03"
+  },
+  {
+    "hwid": "HWID-USER-2",
+    "license": "DEF456-UVW000",
+    "start": "2025-08-03",
+    "expire": "lifetime"
+  }
+]
