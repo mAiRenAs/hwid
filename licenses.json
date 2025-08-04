@@ -1,14 +1,82 @@
 [
   {
-    "hwid": "HWID-USER-1",
-    "license": "ABC123-XYZ789",
-    "start": "2025-08-03",
-    "expire": "2025-09-03"
+    "hwid": "f6298f1d60204993ff1a37a275296ae6cdbfad226bf1300c1d2e505d0522ddf2",
+    "name": "Mohammad Saleh",
+    "start": "2023-07-08",
+    "expire": "2034-08-08",
+    "telegram_id": 123456789,
+    "sub_type": "ادمین"
   },
   {
     "hwid": "HWID-USER-2",
-    "license": "DEF456-UVW000",
-    "start": "2025-08-03",
-    "expire": "lifetime"
+    "name": "Reza",
+    "start": "2024-07-09",
+    "expire": "2024-08-09",
+    "telegram_id": 987654321,
+    "sub_type": "عادی"
+  },
+  {
+    "hwid": "HWID-USER-3",
+    "name": "Sara",
+    "start": "2024-07-10",
+    "expire": "2024-08-10",
+    "telegram_id": 112233445,
+    "sub_type": "عادی"
+  },
+  {
+    "hwid": "HWID-USER-4",
+    "name": "Mohammad",
+    "start": "2024-07-11",
+    "expire": "2024-08-11",
+    "telegram_id": 556677889,
+    "sub_type": "عادی"
+  },
+  {
+    "hwid": "HWID-USER-5",
+    "name": "Niloofar",
+    "start": "2024-07-12",
+    "expire": "2024-08-12",
+    "telegram_id": 998877665,
+    "sub_type": "عادی"
+  },
+  {
+    "hwid": "HWID-USER-6",
+    "name": "Arman",
+    "start": "2024-07-13",
+    "expire": "2024-08-13",
+    "telegram_id": 223344556,
+    "sub_type": "عادی"
+  },
+  {
+    "hwid": "HWID-USER-7",
+    "name": "Fatemeh",
+    "start": "2024-07-14",
+    "expire": "2024-08-14",
+    "telegram_id": 334455667,
+    "sub_type": "عادی"
+  },
+  {
+    "hwid": "HWID-USER-8",
+    "name": "Sina",
+    "start": "2024-07-15",
+    "expire": "2024-08-15",
+    "telegram_id": 445566778,
+    "sub_type": "عادی"
+  },
+  {
+    "hwid": "HWID-USER-9",
+    "name": "Maryam",
+    "start": "2024-07-16",
+    "expire": "2024-08-16",
+    "telegram_id": 556677889,
+    "sub_type": "عادی"
+  },
+  {
+    "hwid": "HWID-USER-10",
+    "name": "Hamed",
+    "start": "2024-07-17",
+    "expire": "2024-08-17",
+    "telegram_id": 667788990,
+    "sub_type": "عادی"
   }
 ]
