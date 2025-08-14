@@ -1,56 +1,44 @@
-// Generated using https://github.com/a2x/cs2-dumper
-// 2024-05-24 21:57:40.319000800 UTC
-
-#pragma once
-
-#include <cstddef>
-
-namespace cs2_dumper {
-    namespace offsets {
-        // Module: client.dll
-        namespace client_dll {
-            constexpr std::ptrdiff_t dwCSGOInput = 0x1A0D080;
-            constexpr std::ptrdiff_t dwEntityList = 0x19A3328;
-            constexpr std::ptrdiff_t dwGameEntitySystem = 0x1AC2028;
-            constexpr std::ptrdiff_t dwGameEntitySystem_getHighestEntityIndex = 0x1510;
-            constexpr std::ptrdiff_t dwGameRules = 0x1A00D08;
-            constexpr std::ptrdiff_t dwGlobalVars = 0x1801BF0;
-            constexpr std::ptrdiff_t dwGlowManager = 0x1A00420;
-            constexpr std::ptrdiff_t dwLocalPlayerController = 0x19F3298;
-            constexpr std::ptrdiff_t dwLocalPlayerPawn = 0x180DB18;
-            constexpr std::ptrdiff_t dwPlantedC4 = 0x1A0A3F8;
-            constexpr std::ptrdiff_t dwPrediction = 0x180D9D0;
-            constexpr std::ptrdiff_t dwSensitivity = 0x1A019B8;
-            constexpr std::ptrdiff_t dwSensitivity_sensitivity = 0x40;
-            constexpr std::ptrdiff_t dwViewAngles = 0x1A12498;
-            constexpr std::ptrdiff_t dwViewMatrix = 0x1A052D0;
-            constexpr std::ptrdiff_t dwViewRender = 0x1A05AE0;
-            constexpr std::ptrdiff_t dwWeaponC4 = 0x19A71B0;
-        }
-        // Module: engine2.dll
-        namespace engine2_dll {
-            constexpr std::ptrdiff_t dwBuildNumber = 0x51D784;
-            constexpr std::ptrdiff_t dwEngineViewData = 0x5D99DC;
-            constexpr std::ptrdiff_t dwNetworkGameClient = 0x51CB58;
-            constexpr std::ptrdiff_t dwNetworkGameClient_clientTickCount = 0x178;
-            constexpr std::ptrdiff_t dwNetworkGameClient_deltaTick = 0x278;
-            constexpr std::ptrdiff_t dwNetworkGameClient_isBackgroundMap = 0x28145F;
-            constexpr std::ptrdiff_t dwNetworkGameClient_localPlayer = 0xF0;
-            constexpr std::ptrdiff_t dwNetworkGameClient_maxClients = 0x270;
-            constexpr std::ptrdiff_t dwNetworkGameClient_serverTickCount = 0x174;
-            constexpr std::ptrdiff_t dwNetworkGameClient_signOnState = 0x260;
-            constexpr std::ptrdiff_t dwSoundService = 0x5D9940;
-            constexpr std::ptrdiff_t dwWindowHeight = 0x5DD2B4;
-            constexpr std::ptrdiff_t dwWindowWidth = 0x5DD2B0;
-        }
-        // Module: inputsystem.dll
-        namespace inputsystem_dll {
-            constexpr std::ptrdiff_t dwInputSystem = 0x387D0;
-        }
-        // Module: matchmaking.dll
-        namespace matchmaking_dll {
-            constexpr std::ptrdiff_t dwGameTypes = 0x1D2290;
-            constexpr std::ptrdiff_t dwGameTypes_mapName = 0x1D23B0;
-        }
-    }
+{
+  "client.dll": {
+    "dwCSGOInput": 31707088,
+    "dwEntityList": 30496120,
+    "dwGameEntitySystem": 33248824,
+    "dwGameEntitySystem_highestEntityIndex": 8432,
+    "dwGameRules": 31660768,
+    "dwGlobalVars": 29256112,
+    "dwGlowManager": 31647944,
+    "dwLocalPlayerController": 31582288,
+    "dwLocalPlayerPawn": 29299872,
+    "dwPlantedC4": 31686160,
+    "dwPrediction": 29299664,
+    "dwSensitivity": 31650776,
+    "dwSensitivity_sensitivity": 72,
+    "dwViewAngles": 31709056,
+    "dwViewMatrix": 31664288,
+    "dwViewRender": 31667920,
+    "dwWeaponC4": 31259872
+  },
+  "engine2.dll": {
+    "dwBuildNumber": 6164804,
+    "dwNetworkGameClient": 6160944,
+    "dwNetworkGameClient_clientTickCount": 856,
+    "dwNetworkGameClient_deltaTick": 572,
+    "dwNetworkGameClient_isBackgroundMap": 2888751,
+    "dwNetworkGameClient_localPlayer": 232,
+    "dwNetworkGameClient_maxClients": 560,
+    "dwNetworkGameClient_serverTickCount": 572,
+    "dwNetworkGameClient_signOnState": 544,
+    "dwWindowHeight": 9278388,
+    "dwWindowWidth": 9278384
+  },
+  "inputsystem.dll": {
+    "dwInputSystem": 285216
+  },
+  "matchmaking.dll": {
+    "dwGameTypes": 1789712
+  },
+  "soundsystem.dll": {
+    "dwSoundSystem": 4057984,
+    "dwSoundSystem_engineViewData": 124
+  }
 }
