@@ -2667,7 +2667,8 @@ class Offsets:
     x = 4468
     y = 4472
 
-
+    # New offsets added from JSON files
+    m_modelState = 400
 # New offsets added from JSON files
 class _NewOffsetsAdded:
     m_modelState = 400
