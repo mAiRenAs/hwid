@@ -28,13 +28,20 @@
     "dwNetworkGameClient_maxClients": 560,
     "dwNetworkGameClient_serverTickCount": 572,
     "dwNetworkGameClient_signOnState": 544,
-    "dwWindowHeight": 9282740,
-    "dwWindowWidth": 9282736
+    "dwWindowHeight": 9282772,
+    "dwWindowWidth": 9282768
   },
   "inputsystem.dll": {
     "dwInputSystem": 285216
   },
   "matchmaking.dll": {
+    "dwGameTypes": 1793760
+  },
+  "soundsystem.dll": {
+    "dwSoundSystem": 4057968,
+    "dwSoundSystem_engineViewData": 124
+  }
+}  "matchmaking.dll": {
     "dwGameTypes": 1793760
   },
   "soundsystem.dll": {
