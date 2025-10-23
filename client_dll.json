@@ -680,6 +680,556 @@
       "CCSGO_WingmanIntroCounterTerroristPosition": {
         "fields": {},
         "metadata": [],
+           {
+            "name": "m_OwnerOnlyPredNetUInt32Variables",
+            "type": "NetworkVarNames",
+            "type_name": "uint32"
+          },
+          {
+            "name": "m_OwnerOnlyPredNetUInt64Variables",
+            "type": "NetworkVarNames",
+            "type_name": "uint64"
+          },
+          {
+            "name": "m_OwnerOnlyPredNetFloatVariables",
+            "type": "NetworkVarNames",
+            "type_name": "float"
+          },
+          {
+            "name": "m_OwnerOnlyPredNetVectorVariables",
+            "type": "NetworkVarNames",
+            "type_name": "Vector"
+          },
+          {
+            "name": "m_OwnerOnlyPredNetQuaternionVariables",
+            "type": "NetworkVarNames",
+            "type_name": "Quaternion"
+          },
+          {
+            "name": "m_OwnerOnlyPredNetGlobalSymbolVariables",
+            "type": "NetworkVarNames",
+            "type_name": "CGlobalSymbol"
+          },
+          {
+            "name": "m_nBoolVariablesCount",
+            "type": "NetworkVarNames",
+            "type_name": "int"
+          },
+          {
+            "name": "m_nOwnerOnlyBoolVariablesCount",
+            "type": "NetworkVarNames",
+            "type_name": "int"
+          },
+          {
+            "name": "m_nRandomSeedOffset",
+            "type": "NetworkVarNames",
+            "type_name": "int"
+          },
+          {
+            "name": "m_flLastTeleportTime",
+            "type": "NetworkVarNames",
+            "type_name": "float"
+          }
+        ],
+        "parent": ""
+      },
+      "CAttributeList": {
+        "fields": {
+          "m_Attributes": 8,
+          "m_pManager": 112
+        },
+        "metadata": [
+          {
+            "name": "m_Attributes",
+            "type": "NetworkVarNames",
+            "type_name": "CEconItemAttribute"
+          }
+        ],
+        "parent": ""
+      },
+      "CAttributeManager": {
+        "fields": {
+          "m_CachedResults": 48,
+          "m_ProviderType": 44,
+          "m_Providers": 8,
+          "m_bPreventLoopback": 40,
+          "m_hOuter": 36,
+          "m_iReapplyProvisionParity": 32
+        },
+        "metadata": [
+          {
+            "name": "m_iReapplyProvisionParity",
+            "type": "NetworkVarNames",
+            "type_name": "int"
+          },
+          {
+            "name": "m_hOuter",
+            "type": "NetworkVarNames",
+            "type_name": "EHANDLE"
+          },
+          {
+            "name": "m_ProviderType",
+            "type": "NetworkVarNames",
+            "type_name": "attributeprovidertypes_t"
+          }
+        ],
+        "parent": ""
+      },
+      "CAttributeManager__cached_attribute_float_t": {
+        "fields": {
+          "flIn": 0,
+          "flOut": 16,
+          "iAttribHook": 8
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "CBaseAnimGraph": {
+        "fields": {
+          "m_RagdollPose": 3976,
+          "m_bAnimGraphUpdateEnabled": 3904,
+          "m_bAnimationUpdateScheduled": 3924,
+          "m_bBuiltRagdoll": 3952,
+          "m_bHasAnimatedMaterialAttributes": 4064,
+          "m_bInitiallyPopulateInterpHistory": 3888,
+          "m_bRagdollClientSide": 4049,
+          "m_bRagdollEnabled": 4048,
+          "m_bSuppressAnimEventSounds": 3890,
+          "m_flMaxSlopeDistance": 3908,
+          "m_nForceBone": 3940,
+          "m_pClientsideRagdoll": 3944,
+          "m_vLastSlopeCheckPos": 3912,
+          "m_vecForce": 3928
+        },
+        "metadata": [
+          {
+            "name": "MNetworkIncludeByName",
+            "type": "Unknown"
+          },
+          {
+            "name": "m_bInitiallyPopulateInterpHistory",
+            "type": "NetworkVarNames",
+            "type_name": "bool"
+          },
+          {
+            "name": "m_bAnimGraphUpdateEnabled",
+            "type": "NetworkVarNames",
+            "type_name": "bool"
+          },
+          {
+            "name": "m_vecForce",
+            "type": "NetworkVarNames",
+            "type_name": "Vector"
+          },
+          {
+            "name": "m_nForceBone",
+            "type": "NetworkVarNames",
+            "type_name": "int32"
+          },
+          {
+            "name": "m_RagdollPose",
+            "type": "NetworkVarNames",
+            "type_name": "PhysicsRagdollPose_t"
+          },
+          {
+            "name": "m_bRagdollEnabled",
+            "type": "NetworkVarNames",
+            "type_name": "bool"
+          },
+          {
+            "name": "m_bRagdollClientSide",
+            "type": "NetworkVarNames",
+            "type_name": "bool"
+          }
+        ],
+        "parent": "C_BaseModelEntity"
+      },
+      "CBaseAnimGraphController": {
+        "fields": {
+          "m_animGraphNetworkedVars": 24,
+          "m_bIsUsingAG2": 6248,
+          "m_bLastUpdateSkipped": 5332,
+          "m_bNetworkedAnimationInputsChanged": 5330,
+          "m_bNetworkedSequenceChanged": 5331,
+          "m_bSequenceFinished": 5288,
+          "m_flPlaybackRate": 5316,
+          "m_flPrevAnimUpdateTime": 5336,
+          "m_flSeqFixedCycle": 5308,
+          "m_flSeqStartTime": 5304,
+          "m_flSoundSyncTime": 5292,
+          "m_hGraphDefinitionAG2": 6240,
+          "m_hSequence": 5300,
+          "m_nActiveIKChainMask": 5296,
+          "m_nAnimLoopMode": 5312,
+          "m_nGraphCreationFlagsAG2": 6288,
+          "m_nNotifyState": 5328,
+          "m_nSerializePoseRecipeSizeAG2": 6280,
+          "m_nSerializePoseRecipeVersionAG2": 6284,
+          "m_nServerGraphDefReloadCountAG2": 6780,
+          "m_nServerSerializationContextIteration": 6788,
+          "m_serializedPoseRecipeAG2": 6256
+        },
+        "metadata": [
+          {
+            "name": "m_animGraphNetworkedVars",
+            "type": "NetworkVarNames",
+            "type_name": "CAnimGraphNetworkedVariables"
+          },
+          {
+            "name": "m_hSequence",
+            "type": "NetworkVarNames",
+            "type_name": "HSequence"
+          },
+          {
+            "name": "m_flSeqStartTime",
+            "type": "NetworkVarNames",
+            "type_name": "GameTime_t"
+          },
+          {
+            "name": "m_flSeqFixedCycle",
+            "type": "NetworkVarNames",
+            "type_name": "float"
+          },
+          {
+            "name": "m_nAnimLoopMode",
+            "type": "NetworkVarNames",
+            "type_name": "AnimLoopMode_t"
+          },
+          {
+            "name": "m_hGraphDefinitionAG2",
+            "type": "NetworkVarNames",
+            "type_name": "HNmGraphDefinitionStrong"
+          },
+          {
+            "name": "m_bIsUsingAG2",
+            "type": "NetworkVarNames",
+            "type_name": "bool"
+          },
+          {
+            "name": "m_serializedPoseRecipeAG2",
+            "type": "NetworkVarNames",
+            "type_name": "uint8"
+          },
+          {
+            "name": "m_nSerializePoseRecipeSizeAG2",
+            "type": "NetworkVarNames",
+            "type_name": "int"
+          },
+          {
+            "name": "m_nSerializePoseRecipeVersionAG2",
+            "type": "NetworkVarNames",
+            "type_name": "int"
+          },
+          {
+            "name": "m_nGraphCreationFlagsAG2",
+            "type": "NetworkVarNames",
+            "type_name": "uint8"
+          },
+          {
+            "name": "m_nServerGraphDefReloadCountAG2",
+            "type": "NetworkVarNames",
+            "type_name": "int"
+          },
+          {
+            "name": "m_nServerSerializationContextIteration",
+            "type": "NetworkVarNames",
+            "type_name": "int"
+          }
+        ],
+        "parent": "CSkeletonAnimationController"
+      },
+      "CBaseFilter": {
+        "fields": {
+          "m_OnFail": 1576,
+          "m_OnPass": 1536,
+          "m_bNegated": 1528
+        },
+        "metadata": [],
+        "parent": "CLogicalEntity"
+      },
+      "CBasePlayerController": {
+        "fields": {
+          "m_CommandContext": 1536,
+          "m_bIsHLTV": 1760,
+          "m_bIsLocalPlayerController": 1912,
+          "m_bKnownTeamMismatch": 1720,
+          "m_bNoClipEnabled": 1913,
+          "m_hPawn": 1716,
+          "m_hPredictedPawn": 1724,
+          "m_hSplitOwner": 1732,
+          "m_hSplitScreenPlayers": 1736,
+          "m_iConnected": 1764,
+          "m_iDesiredFOV": 1916,
+          "m_iszPlayerName": 1768,
+          "m_nInButtonsWhichAreToggles": 1704,
+          "m_nSplitScreenSlot": 1728,
+          "m_nTickBase": 1712,
+          "m_steamID": 1904
+        },
+        "metadata": [
+          {
+            "name": "MNetworkIncludeByName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MNetworkIncludeByName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MNetworkIncludeByName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MNetworkIncludeByName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MNetworkIncludeByName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MNetworkIncludeByName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MNetworkUserGroupProxy",
+            "type": "Unknown"
+          },
+          {
+            "name": "MNetworkUserGroupProxy",
+            "type": "Unknown"
+          },
+          {
+            "name": "MNetworkIncludeByUserGroup",
+            "type": "Unknown"
+          },
+          {
+            "name": "m_nTickBase",
+            "type": "NetworkVarNames",
+            "type_name": "uint32"
+          },
+          {
+            "name": "m_hPawn",
+            "type": "NetworkVarNames",
+            "type_name": "CHandle<CBasePlayerPawn>"
+          },
+          {
+            "name": "m_bKnownTeamMismatch",
+            "type": "NetworkVarNames",
+            "type_name": "bool"
+          },
+          {
+            "name": "m_iConnected",
+            "type": "NetworkVarNames",
+            "type_name": "PlayerConnectedState"
+          },
+          {
+            "name": "m_iszPlayerName",
+            "type": "NetworkVarNames",
+            "type_name": "char"
+          },
+          {
+            "name": "m_steamID",
+            "type": "NetworkVarNames",
+            "type_name": "uint64"
+          },
+          {
+            "name": "m_bNoClipEnabled",
+            "type": "NetworkVarNames",
+            "type_name": "bool"
+          },
+          {
+            "name": "m_iDesiredFOV",
+            "type": "NetworkVarNames",
+            "type_name": "uint32"
+          },
+          {
+            "name": "MNetworkReplayCompatField",
+            "type": "Unknown"
+          }
+        ],
+        "parent": "C_BaseEntity"
+      },
+      "CBasePlayerControllerAPI": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "CBasePlayerVData": {
+        "fields": {
+          "m_flArmDamageMultiplier": 312,
+          "m_flChestDamageMultiplier": 280,
+          "m_flCrouchTime": 372,
+          "m_flDrowningDamageInterval": 348,
+          "m_flHeadDamageMultiplier": 264,
+          "m_flHoldBreathTime": 344,
+          "m_flLegDamageMultiplier": 328,
+          "m_flStomachDamageMultiplier": 296,
+          "m_flUseAngleTolerance": 368,
+          "m_flUseRange": 364,
+          "m_nDrowningDamageInitial": 352,
+          "m_nDrowningDamageMax": 356,
+          "m_nWaterSpeed": 360,
+          "m_sModelName": 40
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CBasePlayerWeaponVData": {
+        "fields": {
+          "m_aShootSounds": 1048,
+          "m_bAllowFlipping": 489,
+          "m_bAutoSwitchFrom": 1025,
+          "m_bAutoSwitchTo": 1024,
+          "m_bBuiltRightHanded": 488,
+          "m_bKeepLoadedAmmo": 1018,
+          "m_bLinkedCooldowns": 996,
+          "m_bReserveAmmoAsClips": 1016,
+          "m_bTreatAsSingleClip": 1017,
+          "m_flDropSpeed": 1032,
+          "m_flMuzzleSmokeDecrementRate": 992,
+          "m_flMuzzleSmokeTimeout": 988,
+          "m_iDefaultClip1": 1008,
+          "m_iDefaultClip2": 1012,
+          "m_iFlags": 997,
+          "m_iMaxClip1": 1000,
+          "m_iMaxClip2": 1004,
+          "m_iPosition": 1040,
+          "m_iRumbleEffect": 1028,
+          "m_iSlot": 1036,
+          "m_iWeight": 1020,
+          "m_nMuzzleSmokeShotThreshold": 984,
+          "m_nPrimaryAmmoType": 998,
+          "m_nSecondaryAmmoType": 999,
+          "m_sMuzzleAttachment": 496,
+          "m_sToolsOnlyOwnerModelName": 264,
+          "m_szBarrelSmokeParticle": 760,
+          "m_szMuzzleFlashParticle": 528,
+          "m_szMuzzleFlashParticleConfig": 752,
+          "m_szWorldModel": 40
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CBaseProp": {
+        "fields": {
+          "m_bConformToCollisionBounds": 4448,
+          "m_bModelOverrodeBlockLOS": 4440,
+          "m_iShapeType": 4444,
+          "m_mPreferredCatchTransform": 4464
+        },
+        "metadata": [],
+        "parent": "CBaseAnimGraph"
+      },
+      "CBasePulseGraphInstance": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "CBaseTriggerAPI": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "CBodyComponent": {
+        "fields": {
+          "__m_pChainEntity": 72,
+          "m_pSceneNode": 8
+        },
+        "metadata": [],
+        "parent": "CEntityComponent"
+      },
+      "CBodyComponentBaseAnimGraph": {
+        "fields": {
+          "m_animationController": 1456
+        },
+        "metadata": [
+          {
+            "name": "m_animationController",
+            "type": "NetworkVarNames",
+            "type_name": "CBaseAnimGraphController"
+          }
+        ],
+        "parent": "CBodyComponentSkeletonInstance"
+      },
+      "CBodyComponentBaseModelEntity": {
+        "fields": {},
+        "metadata": [],
+        "parent": "CBodyComponentSkeletonInstance"
+      },
+      "CBodyComponentPoint": {
+        "fields": {
+          "m_sceneNode": 128
+        },
+        "metadata": [
+          {
+            "name": "m_sceneNode",
+            "type": "NetworkVarNames",
+            "type_name": "CGameSceneNode"
+          }
+        ],
+        "parent": "CBodyComponent"
+      },
+      "CBodyComponentSkeletonInstance": {
+        "fields": {
+          "m_skeletonInstance": 128
+        },
+        "metadata": [
+          {
+            "name": "m_skeletonInstance",
+            "type": "NetworkVarNames",
+            "type_name": "CSkeletonInstance"
+          }
+        ],
+        "parent": "CBodyComponent"
+      },
+      "CBombTarget": {
+        "fields": {
+          "m_bBombPlantedHere": 4080
+        },
+        "metadata": [
+          {
+            "name": "m_bBombPlantedHere",
+            "type": "NetworkVarNames",
+            "type_name": "bool"
+          }
+        ],
+        "parent": "C_BaseTrigger"
+      },
+      "CBuoyancyHelper": {
+        "fields": {
+          "m_bNeutrallyBuoyant": 44,
+          "m_flFluidDensity": 28,
+          "m_flNeutrallyBuoyantAngularDamping": 40,
+          "m_flNeutrallyBuoyantGravity": 32,
+          "m_flNeutrallyBuoyantLinearDamping": 36,
+          "m_nFluidType": 24,
+          "m_vecFractionOfWheelSubmergedForWheelDrag": 96,
+          "m_vecFractionOfWheelSubmergedForWheelFriction": 48,
+          "m_vecWheelDrag": 120,
+          "m_vecWheelFrictionScales": 72
+        },
+        "metadata": [],
+        "parent": ""
+      },
+      "CCSGO_WingmanIntroCharacterPosition": {
+        "fields": {},
+        "metadata": [],
+        "parent": "C_CSGO_TeamIntroCharacterPosition"
+      },
+      "CCSGO_WingmanIntroCounterTerroristPosition": {
+        "fields": {},
+        "metadata": [],
         "parent": "CCSGO_WingmanIntroCharacterPosition"
       },
       "CCSGO_WingmanIntroTerroristPosition": {
