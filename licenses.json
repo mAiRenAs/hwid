@@ -48,7 +48,7 @@
     "sub_type": "عادی"
   },
   {
-    "hwid": "0e5cd30768e139d7492f023fbed98830e0d1a02d35193c4930d24eadeda785b1",
+    "hwid": "0e5cd30768e139d7492f023fbed98830e0d1a02d35193c4930d24eadeda785b1EXPIRED",
     "name": "MahdiTAK",
     "start": "2025-09-30",
     "expire": "2025-10-14",
@@ -56,7 +56,7 @@
     "sub_type": "عادی"
   },
   {
-    "hwid": "35cde9d1ae967442ca87a3a54b96dcbf9a4007466611b981b4440ce0accddcc6",
+    "hwid": "35cde9d1ae967442ca87a3a54b96dcbf9a4007466611b981b4440ce0accddcc6EXPIRED",
     "name": "KARMA",
     "start": "2025-10-01",
     "expire": "2025-10-16",
@@ -72,11 +72,11 @@
     "sub_type": "عادی"
   },
   {
-    "hwid": "HWID-USER-10",
-    "name": "Hamed",
+    "hwid": "c17b5b122def5da8bc642b83509c37f59f5eeed2055cc10cd55e8661bb0f9913",
+    "name": "EL TORTA",
     "start": "2024-07-17",
-    "expire": "2024-08-17",
-    "telegram_id": 667788990,
-    "sub_type": "عادی"
+    "expire": "2026-08-17",
+    "telegram_id": 394963658,
+    "sub_type": "ادمین"
   }
 ]
