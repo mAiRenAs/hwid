@@ -87,5 +87,13 @@
     "expire": "2026-08-17",
     "telegram_id": 394963658,
     "sub_type": "ادمین"
+  },
+  {
+    "hwid": "76ce9e5a983a481cf59bd84a7c9f4f11479ab0eabca6d9964f03e56adf1e059f",
+    "name": "Hamid Test",
+    "start": "2025-09-30",
+    "expire": "2025-12-20",
+    "telegram_id": 334455667,
+    "sub_type": "عادی"
   }
 ]
