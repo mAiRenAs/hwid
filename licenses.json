@@ -95,5 +95,14 @@
     "expire": "2015-12-20",
     "telegram_id": 334455667,
     "sub_type": "عادی"
+  },
+  {
+    "hwid": "3220f5392443b4abdb4a2c9f54efbd43f2934dfb4bda3c4658643d53fb050c3c",
+    "name": "AR Alireza",
+    "start": "2025-12-13",
+    "expire": "2025-12-16",
+    "telegram_id": 334455667,
+    "sub_type": "عادی"
   }
+  
 ]
