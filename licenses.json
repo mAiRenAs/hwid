@@ -89,10 +89,10 @@
     "sub_type": "ادمین"
   },
   {
-    "hwid": "76ce9e5a983a481cf59bd84a7c9f4f11479ab0eabca6d9964f03e56adf1e059f",
-    "name": "Hamid Test",
-    "start": "2025-09-30",
-    "expire": "2015-12-20",
+    "hwid": "49a2e5d0f7ab07f4afa18f66297bd1653d6ccbc5696d803a4a1d30b5104b1292",
+    "name": "Akira ",
+    "start": "2025-12-26",
+    "expire": "2026-01-26",
     "telegram_id": 334455667,
     "sub_type": "عادی"
   },
@@ -104,5 +104,12 @@
     "telegram_id": 334455667,
     "sub_type": "عادی"
   }
-  
+  {
+    "hwid": "36bde3d278605bc30d28ab473d3b75d2d0d2a467ce5a65abbeec53dc3a5d5db4",
+    "name": "Akira ",
+    "start": "2025-12-26",
+    "expire": "2026-01-26",
+    "telegram_id": 334455667,
+    "sub_type": "عادی"
+  }
 ]
