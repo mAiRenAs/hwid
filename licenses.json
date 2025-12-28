@@ -89,10 +89,10 @@
     "sub_type": "ادمین"
   },
   {
-    "hwid": "49a2e5d0f7ab07f4afa18f66297bd1653d6ccbc5696d803a4a1d30b5104b1292EXPIRED",
+    "hwid": "49a2e5d0f7ab07f4afa18f66297bd1653d6ccbc5696d803a4a1d30b5104b1292",
     "name": "Akira2",
     "start": "2025-12-26",
-    "expire": "2023-01-26",
+    "expire": "2023-01-29",
     "telegram_id": 334455667,
     "sub_type": "عادی"
   },
@@ -108,15 +108,15 @@
     "hwid": "418f2c0747d2a266cf07949ab02729a4b34a80804224ba24c3c14b050485342b",
     "name": "PUNISHER",
     "start": "2025-12-27",
-    "expire": "2026-01-27",
+    "expire": "2026-01-29",
     "telegram_id": 334455667,
     "sub_type": "عادی"
   },
   {
-    "hwid": "36bde3d278605bc30d28ab473d3b75d2d0d2a467ce5a65abbeec53dc3a5d5db4EXPIRED",
+    "hwid": "36bde3d278605bc30d28ab473d3b75d2d0d2a467ce5a65abbeec53dc3a5d5db4",
     "name": "Akira1",
     "start": "2025-12-26",
-    "expire": "2023-01-26",
+    "expire": "2023-01-29",
     "telegram_id": 334455667,
     "sub_type": "عادی"
   }
