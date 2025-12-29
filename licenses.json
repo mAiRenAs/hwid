@@ -16,7 +16,7 @@
     "sub_type": "عادی"
   },
   {
-    "hwid": "2b12b838bba1b80241abd6c1ef43ce7f137b481720165265623c39c8cc54cddd",
+    "hwid": "2b12b838bba1b80241abd6c1ef43ce7f137b481720165265623c39c8cc54cdddEXPIRED",
     "name": "Ehsan",
     "start": "2025-10-09",
     "expire": "2025-11-11",
@@ -102,6 +102,14 @@
     "start": "2025-12-13",
     "expire": "2029-12-16",
     "telegram_id": 334455667,
+    "sub_type": "عادی"
+  },
+  {
+    "hwid": "76ce9e5a983a481cf59bd84a7c9f4f11479ab0eabca6d9964f03e56adf1e059f",
+    "name": "Hamid",
+    "start": "2025-12-30",
+    "expire": "2025-12-31",
+    "telegram_id": 112233445,
     "sub_type": "عادی"
   },
   {
