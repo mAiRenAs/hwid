@@ -1,1 +1,1 @@
-https://semnone.ir/applogin/user_data.json
+https://raw.githubusercontent.com/mAiRenAs/hwid/refs/heads/main/user_data.json
