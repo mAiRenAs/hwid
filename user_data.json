@@ -144,6 +144,18 @@
         }
     },
     {
+        "user_id": "1122334455",
+        "name": "Nicotin",
+        "type": "",
+        "vd_code": "3FEE7-31BC7-EF1AD-8D6C9",
+        "access_time": "2026-05-28 14:14:30",
+        "start": "2026-06-04",
+        "expire": "2026-07-06",
+        "additional_data": {
+            "vd": "3FEE7-31BC7-EF1AD-8D6C9"
+        }
+    },
+    {
         "user_id": "6027874814",
         "name": "PUNISHER",
         "type": "VIP",
