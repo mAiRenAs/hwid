@@ -25,6 +25,18 @@
     },
     {
         "user_id": "27438166177",
+        "name": "AmirError",
+        "type": "عادی",
+        "vd_code": "6E76D-8A78D-5C38B-F9B46",
+        "access_time": "2025-11-21 16:09:03",
+        "start": "2026-06-13",
+        "expire": "2026-07-14",
+        "additional_data": {
+            "vd": "6E76D-8A78D-5C38B-F9B46"
+        }
+    },
+    {
+        "user_id": "27438166177",
         "name": "Cartel",
         "type": "عادی",
         "vd_code": "55756-8C350-A8CA7-74A25",
