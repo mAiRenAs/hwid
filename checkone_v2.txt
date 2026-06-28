@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/mAiRenAs/hwid/refs/heads/main/user_data.json
+https://raw.githubusercontent.com/mAiRenAs/hwid/refs/heads/main/user_data_2.json
