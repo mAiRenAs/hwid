@@ -3,7 +3,7 @@
         "user_id": "7438166177",
         "name": "Reza Ramzeani",
         "type": "عادی",
-        "vd_code": "91CC5-A18BA-96CA7-BA927",
+        "vd_code": "3A1DF-25E44-9305A-22621",
         "access_time": "2025-11-21 16:09:03",
         "start": "2025-11-21",
         "expire": "2028-12-21",
@@ -47,18 +47,6 @@
             "vd": "F146B-FA535-883AD-B71BE"
         }
     },    
-    {
-        "user_id": "1122334455",
-        "name": "ADMIRAN",
-        "type": "عادی",
-        "vd_code": "91CC5-A18BA-96CA7-BA927",
-        "access_time": "2026-05-28 14:14:30",
-        "start": "2026-08-16",
-        "expire": "2026-08-19",
-        "additional_data": {
-            "vd": "91CC5-A18BA-96CA7-BA927"
-        }
-    },  
     {
         "user_id": "1122334455",
         "name": "MahYaR",
