@@ -1,44 +1,38 @@
 {
-  "client.dll": {
-    "dwCSGOInput": 39258752,
-    "dwEntityList": 40960056,
-    "dwGameEntitySystem": 40960056,
-    "dwGameEntitySystem_highestEntityIndex": 8480,
-    "dwGameRules": 39168648,
-    "dwGlobalVars": 35811080,
-    "dwGlowManager": 39155616,
-    "dwLocalPlayerController": 39003352,
-    "dwLocalPlayerPawn": 39171480,
-    "dwPlantedC4": 38550824,
-    "dwPrediction": 39171232,
-    "dwSensitivity": 39113432,
-    "dwSensitivity_sensitivity": 88,
-    "dwViewAngles": 39260424,
-    "dwViewMatrix": 39192800,
-    "dwViewRender": 39195040,
-    "dwWeaponC4": 38532096
-  },
-  "engine2.dll": {
-    "dwBuildNumber": 6406636,
-    "dwNetworkGameClient": 9544016,
-    "dwNetworkGameClient_clientTickCount": 920,
-    "dwNetworkGameClient_deltaTick": 588,
-    "dwNetworkGameClient_isBackgroundMap": 2888767,
-    "dwNetworkGameClient_localPlayer": 248,
-    "dwNetworkGameClient_maxClients": 576,
-    "dwNetworkGameClient_serverTickCount": 588,
-    "dwNetworkGameClient_signOnState": 560,
-    "dwWindowHeight": 9561308,
-    "dwWindowWidth": 9561304
-  },
-  "inputsystem.dll": {
-    "dwInputSystem": 289728
-  },
-  "matchmaking.dll": {
-    "dwGameTypes": 1773520
-  },
-  "soundsystem.dll": {
-    "dwSoundSystem": 5460800,
-    "dwSoundSystem_engineViewData": 108
+  "offsets": {
+    "client.dll": {
+      "GlobalEntityList": 37118704,
+      "Globals": 35815176,
+      "LocalController": 39007448,
+      "ViewMatrix": 39196912,
+      "dwCSGOInput": 35829992,
+      "dwEntityList": 40964168,
+      "dwGameEntitySystem": 40964168,
+      "dwGameRules": 39172760,
+      "dwGlobalVars": 35815176,
+      "dwPlantedC4": 38555168,
+      "dwViewRender": 39199152,
+      "dwWeaponC4": 35356576
+    },
+    "engine2.dll": {
+      "BuildInfo": 9591184,
+      "NetworkGameClientInstance": 9544016,
+      "dwBuildNumber": 6416688,
+      "dwNetworkGameClient": 9544016,
+      "dwWindowHeight": 9561308,
+      "dwWindowWidth": 9561304
+    },
+    "inputsystem.dll": {
+      "dwInputSystem": 289728
+    },
+    "schemasystem.dll": {
+      "SchemaSystem": 485136
+    },
+    "soundsystem.dll": {
+      "dwSoundSystem": 6592496
+    },
+    "tier0.dll": {
+      "CCVars": 3851888
+    }
   }
 }
