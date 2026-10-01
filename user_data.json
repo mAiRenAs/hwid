@@ -1,4 +1,4 @@
-[
+my[
     {
         "user_id": "7438166177",
         "name": "Reza Ramzeani",
@@ -66,7 +66,7 @@
         "vd_code": "37E9A-D1317-E592F-29565",
         "access_time": "2025-11-21 16:09:03",
         "start": "2026-10-09",
-        "expire": "2026-11-09",
+        "expire": "2026-01-09",
         "additional_data": {
             "vd": "37E9A-D1317-E592F-29565"
         }
@@ -90,7 +90,7 @@
         "vd_code": "40911-414D9-3014C-3E100",
         "access_time": "2025-11-21 16:09:03",
         "start": "2026-08-29",
-        "expire": "2026-10-16",
+        "expire": "2026-05-16",
         "additional_data": {
             "vd": "40911-414D9-3014C-3E100"
         }
@@ -207,10 +207,10 @@
         "user_id": "27438166177",
         "name": "Bahamin",
         "type": "عادی",
-        "vd_code": "7E578-EDC10-18064-BB6AA",
+        "vd_code": "0A7E3-1984E-918BE-F7523",
         "access_time": "2025-11-21 16:09:03",
         "start": "2026-06-14",
-        "expire": "2026-08-15",
+        "expire": "2026-11-01",
         "additional_data": {
             "vd": "7E578-EDC10-18064-BB6AA"
         }
